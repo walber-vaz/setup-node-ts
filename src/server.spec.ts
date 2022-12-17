@@ -1,3 +1,6 @@
+import Person from './server';
+
 it('should sum', () => {
-  expect(2 + 2).toBe(4);
+  const person = new Person();
+  expect(person.sayName()).toBe('w2k');
 });

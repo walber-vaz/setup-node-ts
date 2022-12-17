@@ -1,3 +1,7 @@
-const menssage = 'ola';
+class Person {
+  sayName() {
+    return 'w2k';
+  }
+}
 
-console.log(menssage);
+export default Person;
