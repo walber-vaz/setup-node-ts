@@ -1,1 +1,3 @@
-const msg = 'ola';
+const menssage = 'ola';
+
+console.log(menssage);
