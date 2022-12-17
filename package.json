@@ -1,0 +1,12 @@
+{
+  "name": "setup-node-ts",
+  "version": "0.0.1",
+  "description": "Setup nodejs usando typescript, jest, eslint, prettier",
+  "main": "src/server.ts",
+  "author": "Walber Vaz da Silva <wvs.walber@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.11.16",
+    "typescript": "^4.9.4"
+  }
+}
