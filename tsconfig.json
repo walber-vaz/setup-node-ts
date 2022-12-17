@@ -11,6 +11,7 @@
     "skipLibCheck": true,
     "paths": {
       "@/*": ["*"]
-    }
+    },
+    "esModuleInterop": true
   }
 }
