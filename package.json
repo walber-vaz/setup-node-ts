@@ -6,6 +6,8 @@
   "author": "Walber Vaz da Silva <wvs.walber@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
     "start:dev": "nodemon --watch 'src/' --exec 'ts-node src/server.ts' -e ts",
     "husky:prepare": "husky install",
     "test": "jest --passWithNoTests",
